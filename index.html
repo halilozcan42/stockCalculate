@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/bf362058f1.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>STOCK CALCULATE</title>
+</head>
+
+<body>
+    <div class="container mt-3">
+        <nav class="navbar navbar-dark bg-info">
+            <a href="#" class="navbar-brand"><i class="fas fa-database p-3"></i>Stock Calculate</a>
+        </nav>
+    </div>
+    <div class="container mt-3">
+        <div class="card">
+            <div class="card-body">
+                <form>
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="name" placeholder="Product name..">
+                        </div>
+                        <div class="form-group col-md-6">
+                            <input type="text" class="form-control" id="price" placeholder="Product price...">
+                        </div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-sm addBtn">
+                        <i class="fas fa-plus p-1"></i>
+                        Add
+                    </button>
+                    <button type="submit" class="btn btn-warning btn-sm uptadeBtn">
+                        <i class="far fa-edit p-1"></i>
+                        Save Changes
+                    </button>
+                    <button type="submit" class="btn btn-danger btn-sm deleteBtn">
+                        <i class="fas fa-times p-1"></i>
+                        Delete
+                    </button>
+                    <button type="submit" class="btn btn-secondary btn-sm cancelBtn">
+                        <i class="fas fa-arrow-circle-left p-1"></i>
+                        Cancel
+                    </button>
+                </form>
+            </div>
+
+        </div>
+        <div class="card mt-3">
+            <table class="table">
+                <tbody class="item-list">
+                    <tr>
+                        <td>0</td>
+                        <td>Monitor</td>
+                        <td>100$</td>
+                        <td class="text-right">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="far fa-edit"></i>
+                            </button></td>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Ram</td>
+                        <td>20$</td>
+                        <td class="text-right">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="far fa-edit"></i>
+                            </button></td>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Keyboard</td>
+                        <td>10$</td>
+                        <td class="text-right">
+                            <button type="submit" class="btn btn-warning">
+                                <i class="far fa-edit"></i>
+                            </button></td>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="card mt-3">
+            <div class="card-footer text-right">
+                <p>Total <span>130 $</span></p>
+            </div>
+        </div>
+    </div>
+    </div>
+
+
+    <script src="app.js" type="text/Javascript"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
